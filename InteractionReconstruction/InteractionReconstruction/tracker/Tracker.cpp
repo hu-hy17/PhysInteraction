@@ -5,7 +5,7 @@ Tracker::Tracker(Worker*worker, RealSenseSR300& sr300, double FPS, std::string d
 	: worker(worker), 
 	sensor_sr300(sr300), 
 	hand_segmentation(320, 240),
-	record_right_camera_data(true)
+	record_right_camera_data(false)
 {
 	setSingleShot(false);
 	setInterval((1.0 / FPS)*1000.0);
