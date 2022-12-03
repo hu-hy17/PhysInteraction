@@ -1,0 +1,7 @@
+find_package(Eigen3 REQUIRED)
+if(EIGEN3_FOUND)
+    message(STATUS EIGEN3_INCLUDE_DIRS:${EIGEN3_INCLUDE_DIRS})
+    include_directories(${EIGEN3_INCLUDE_DIRS})
+else()
+    message(ERROR "Eigen3 NOT FOUND!")
+endif()

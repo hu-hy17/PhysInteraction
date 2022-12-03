@@ -1,0 +1,8 @@
+find_package(Jsoncpp REQUIRED)
+if(Jsoncpp_FOUND)
+    message(STATUS "Jsoncpp_ROOT_DIR: ${Jsoncpp_ROOT_DIR}")
+    include_directories(${Jsoncpp_INCLUDE_DIR})
+    LIST(APPEND LIBRARIES ${Jsoncpp_LIBRARIES})
+else()
+    message(ERROR "Jsoncpp NOT FOUND!")
+endif()

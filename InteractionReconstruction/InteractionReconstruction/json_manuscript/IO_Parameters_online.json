@@ -1,0 +1,52 @@
+{
+  // sth you may want to configure
+  "benchmark": false, // false=online, true=offline
+  "nonrigid": false, // whether the object is non-rigid
+  "track_hand_with_phys": true, // whether using physical refinement
+  "start_frame": 0, // when to start hand tracking, typically set to 0 when running the online system
+  "set_recon_frame": false, // when to start object reconstruction is preset (true, usually for offline) or decided during running (false, usually for online)
+  "recon_frame": 81, // when to start object reconstruction
+  "stop_recon_frame": 100000, // when to stop object reconstruction
+  "nonrigid_start": 500, // when to start tracking non-rigid object motion, typically set to the time when the object's shape is fully reconstructed
+
+  "camera_id": "617204007612", // a unique serial number for each RealSense Camera, you can get it from RealSense SDK or RealSense Viewer
+  "depth_to_color": [ 0.999994, 0.003424, -0.000822, 0.025700, -0.003419, 0.999979, 0.005581, -0.000733, 0.000842, -0.005579, 0.999984, 0.004077, 0.0, 0.0, 0.0, 1.0 ], // transform matrix from the depth camera to the color camera
+  "depth_intrinsic": [ 473.297, 473.297, 316.561, 245.293 ],  // intrinsic parameters of the depth camera [fx, fy, cx, cy]
+  "color_intrinsic": [ 613.296, 613.296, 314.159, 234.363 ],  // intrinsic parameters of the color camera [fx, fy, cx, cy]
+
+  "left_camera_file_mask": "../../../../data/617204007612", // file prefix of the image sequence, only for offline system. (NOTE: camera id is also included)
+
+  // sth related to extra visualization results and outputs
+  "show_input": true, // rgb, depth input
+  "store_input": false,
+  "show_seg": false, // hand-object segmentation result
+  "store_seg": false,
+  "input_store_path": "../../../../result/input/",
+
+  "show_render": false, // show reconstruction results from camera view
+  "store_render": false,
+  "render_store_path": "../../../../result/render/",
+
+  "store_hand_solution": false, // hand pose results
+  "hand_pose_store_path": "../../../../result/",
+
+  "store_org_data": true, // raw rgbd data
+  "org_data_store_path": "../../../../data/",
+
+  // sth no need to modify
+  "show_ADT": false,
+  "sequence_path": "xxx",
+  "sequence_name": "multi_capture",
+  "data_path": "../../../data/",
+  "playback": false,
+  "fit2D": true,
+  "right_camera_file_mask": "xxx",
+  "use_tips_2D_point": false,
+  "tips_2D_point_path": "xxx",
+  "camera_using": 1, //0-all camera  1-left camera  2-right camera
+  "is_using_2D_keypoint": false,
+  "2D_Keypoint_path": "xxx",
+  "start_frame_only_2D_keypoint": 60000,
+  "track_with_two_cameras": false,
+  "pose_camera1": [ -0.997660, 0.018977, -0.065688, 0.000000, 0.028755, 0.988076, -0.151259, 0.000000, 0.062032, -0.152794, -0.986309, 0.000000, -21.721695, 71.492836, 961.890442, 1.000000 ]
+}

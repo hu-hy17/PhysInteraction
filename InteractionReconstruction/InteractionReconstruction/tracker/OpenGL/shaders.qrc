@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>DebugRenderer/CloudRenderer_fshader.glsl</file>
+        <file>DebugRenderer/CloudRenderer_vshader.glsl</file>
+        <file>KinectDataRenderer/KinectDataRenderer_fshader2.glsl</file>
+        <file>KinectDataRenderer/KinectDataRenderer_vshader2.glsl</file>
+        <file>CylindersRenderer/Cylinders_FB_fshader.glsl</file>
+        <file>CylindersRenderer/Cylinders_FB_vshader.glsl</file>
+        <file>CylindersRenderer/Cylinders_fshader.glsl</file>
+        <file>CylindersRenderer/Cylinders_vshader.glsl</file>
+        <file>QuadRenderer/QuadRenderer_color_fshader.glsl</file>
+        <file>QuadRenderer/QuadRenderer_depth_fshader.glsl</file>
+        <file>QuadRenderer/QuadRenderer_vshader.glsl</file>
+        <file>KinectDataRenderer/ObjectModelTextureRenderer_fshader1.glsl</file>
+        <file>KinectDataRenderer/ObjectModelTextureRenderer_vshader1.glsl</file>
+        <file>KinectDataRenderer/ObjectModelRenderer_fshader.glsl</file>
+        <file>KinectDataRenderer/ObjectModelRenderer_vshader.glsl</file>
+        <file>KinectDataRenderer/ObjectModelTextureRendererNonRigid_fshader.glsl</file>
+        <file>KinectDataRenderer/ObjectModelTextureRendererNonRigid_vshader.glsl</file>
+        <file>KinectDataRenderer/ImageRender_fshader.glsl</file>
+        <file>KinectDataRenderer/ImageRender_vshader.glsl</file>
+        <file>KinectDataRenderer/SkeletonRenderer_fshader.glsl</file>
+        <file>KinectDataRenderer/SkeletonRenderer_vshader.glsl</file>
+        <file>MarkerRender/cylinder_fshader.glsl</file>
+        <file>MarkerRender/cylinder_vshader.glsl</file>
+        <file>MarkerRender/mesh_fshader.glsl</file>
+        <file>MarkerRender/mesh_vshader.glsl</file>
+    </qresource>
+</RCC>

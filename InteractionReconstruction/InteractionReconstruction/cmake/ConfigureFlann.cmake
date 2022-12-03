@@ -1,0 +1,7 @@
+find_package(Flann REQUIRED)
+if(Flann_FOUND)
+    message(STATUS Flann_INCLUDE_DIR:${Flann_INCLUDE_DIR})
+    include_directories(${Flann_INCLUDE_DIR})
+else()
+    message(ERROR "Flann NOT FOUND!")
+endif()

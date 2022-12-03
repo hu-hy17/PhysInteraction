@@ -1,0 +1,7 @@
+find_package(Libigl REQUIRED)
+if(Libigl_FOUND)
+    message(STATUS "Libigl_INCLUDE_DIR: ${Libigl_INCLUDE_DIR}")
+    include_directories(${Libigl_INCLUDE_DIR})
+else()
+    message(STATUS "Libigl NOT FOUND!")
+endif()

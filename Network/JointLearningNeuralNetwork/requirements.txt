@@ -1,0 +1,6 @@
+GPUtil==1.4.0
+numpy==1.21.6
+opencv_python==4.1.1.26
+Pillow==9.3.0
+tensorflow==2.10.1
+tensorflow_gpu==1.14.0
