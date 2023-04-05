@@ -11,7 +11,6 @@
 *.userosscache
 *.sln.docstates
 *.png
-*.txt
 *.ply
 *.obj
 *.mp4
@@ -78,7 +77,6 @@ artifacts/
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
 *.vspscc
 *.vssscc
 .builds
