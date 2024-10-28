@@ -1,4 +1,4 @@
 result/*.txt
 result/input/*.*
 result/render/*.*
-data/*.png
+./data/*.png
