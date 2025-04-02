@@ -10,7 +10,6 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.png
 *.ply
 *.obj
 *.mp4
@@ -59,7 +58,6 @@ artifacts/
 !build/wristband.txt
 !result/input/nop.txt
 !result/render/nop.txt
-*.png
 *_i.c
 *_p.c
 *_i.h
